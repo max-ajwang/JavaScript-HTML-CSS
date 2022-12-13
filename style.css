@@ -2,3 +2,20 @@ html, body {
   height: 100%;
   width: 100%;
 }
+
+.italics {
+  font-style: italic;
+}
+
+.red-text {
+  color: red;
+}
+
+.div-1, .div-2 {
+  border: 1px solid black;
+  margin: 20px;
+}
+
+.table-1 {
+  border: 1px solid black;
+}

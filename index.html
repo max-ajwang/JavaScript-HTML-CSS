@@ -4,20 +4,78 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>replit</title>
+  <title> HTML, CSS & JavaScript Guide </title>
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
-  Hello world
-  <script src="script.js"></script>
+  <h1>Header 1</h1>
+  <h2>Header 2</h2>
+  <h3>Header 3</h3>
+  <h4>Header 4</h4>
+  <h5>Header 5</h5>
+  <h6>Header 6</h6>
 
- <!--
-  This script places a badge on your repl's full-browser view back to your repl's cover
-  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
-  teal, blue, blurple, magenta, pink!
-  -->
-  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+  <p>Some paragraph with <span class="italics"> italicized/emphasized text, </span>
+    <strong> some bold text </strong> <span class="red-text"> and some red text </span>
+  </p>
+
+  <div class="div-1">
+    <p>Some text inside div 1 <a href="https://google.com"> Link to google.com </a></p>
+    <p>Some text inside div 1<a href="https://google.com" target="_blank"> This link opens in a new tab </a></p>
+    <p>Some text inside div 1</p>
+  </div>
+
+  <div class="div-2">
+    <p>Some text inside div 2</p>
+    <p>Some text inside div 2</p>
+    <p>Some text inside div 2</p>
+  </div>
+
+  <input name="input-1" placeholder="This is a placeholder" />
+
+  <input name="input-2" value="This is a predefined value" />
+
+  <img
+    src="data:image/png;base64,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"
+    width="300" alt="Elephant image" />
+
+  <!-- This is a button with a call back function that displays an alert on the browser-->
+  <button onClick="alertMe()">CLICK ME</button>
+  <!-- This is an unordered list -->
+  <ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+  </ul>
+  <!-- This is an ordered list -->
+  <ol>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+  </ol>
+  <!-- This is a table -->
+  <table class="table-1">
+    <thead>
+      <tr>
+        <th>Header 1</th>
+        <th>Header 2</th>
+        <th>Header 3</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Row 1</td>
+        <td>Row 2</td>
+        <td>Row 3</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- Button with event listener that inserts a pragaraph when clicked-->
+  <button id="btn-1" class="my-btn">CLICK ME</button>
+
+  <script src="script.js"></script>
 </body>
 
 </html>
